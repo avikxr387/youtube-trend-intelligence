@@ -1,0 +1,38 @@
+# Environment files (API keys, secrets)
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+agri/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data files (optional)
+data/
+
+*.sqlite
+
+# Logs
+*.log
+
+# backup files
+*.env.backup
+*.key
+*.secret
